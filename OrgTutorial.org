@@ -1,0 +1,18 @@
+* Tasks
+** DONE Start new org file for tutorial
+   CLOSED: [2017-07-13 Thu 08:58]
+** DONE Outline document
+   CLOSED: [2017-07-14 Fri 11:11]
+** TODO Write introduction
+** TODO Finish document
+   SCHEDULED: <2017-07-16 Sun>
+
+* Introduction
+
+Org-mode is a personal information management and outlining tool fro Emacs
+
+** Obtaining org-mode
+
+You can download org-mode from the [[http://adispring.coding.me][org-mode home page]]
+
+[[file:redux-fp.org][redux-fp link]]

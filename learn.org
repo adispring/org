@@ -1,0 +1,15 @@
+* Source Code
+** TODO redux
+
+Learn Redux from its creator:
+Part 1: [[https://egghead.io/series/getting-started-with-redux][Getting Started with Redux]] (30 free videos)
+Part 2: [[https://egghead.io/courses/building-react-applications-with-idiomatic-redux][Building React Applications with Idiomatic Redux]] (27 free videos)
+
+Adi's Codepen demo:
+[[https://codepen.io/adispring/pen/pwYmPZ][Redux: Writing a Counter Reducer]]
+[[https://codepen.io/adispring/pen/jwRWbq][Redux: Store Methods: getState(), dispatch(), and subscribe()]]
+
+** TODO react-redux
+
+* Emacs
+** TODO org-mode
