@@ -15,8 +15,23 @@
 
     [[file:~/JavaScript/Github/redux/src/createStore.js::import%20isPlainObject%20from%20'lodash/isPlainObject'][createStore.js]]
 
-
 ** TODO react-redux
+*** Source code
+    [[file:~/JavaScript/Github/react-redux/src/connect/connect.js::import%20connectAdvanced%20from%20'../components/connectAdvanced'][connect.js]]
 
 * Emacs
 ** TODO org-mode
+*** C-c C-x: org-mode command
+
+** TODO projectile
+   [[http://projectile.readthedocs.io/en/latest/usage/][Cheatsheet]]
+*** C-c p f: find file in project.
+*** C-c p l: Display a list of all files in a direcotry.
+*** C-c p s g: Run grep on the files in project.
+*** C-c p b: Display a list of all project buffers currently open.
+*** C-c p e: Shows a list of recently visited project files.
+*** C-c p !: Runs shell-command in the root directory of the project.
+*** C-c p p: Display a list of known projects you can switch to.
+*** C-c p C-h: Projectile help
+
+
