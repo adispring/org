@@ -1,4 +1,6 @@
 * Technology
 ** TODO fp in redux blog
-
+   SCHEDULED: <2017-08-13 Sun>
+*** DONE redux source code reading.
+*** TODO SICP first 3 chapters: learn abstract and compose.
 * Business

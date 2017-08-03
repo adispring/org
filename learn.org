@@ -15,23 +15,64 @@
 
     [[file:~/JavaScript/Github/redux/src/createStore.js::import%20isPlainObject%20from%20'lodash/isPlainObject'][createStore.js]]
 
-** TODO react-redux
+** TODO react-redux v5.2.0
 *** Source code
     [[file:~/JavaScript/Github/react-redux/src/connect/connect.js::import%20connectAdvanced%20from%20'../components/connectAdvanced'][connect.js]]
+    [[file:~/JavaScript/Github/react-redux/src/components/Provider.js::import%20{%20Component,%20Children%20}%20from%20'react'][Provider.js]]
+
+
+    index.js
+
+    connect/
+      connect.js           
+      mapDispatchToProps.js
+      mapStateToProps.js   
+      mergeProps.js        
+      selectorFactory.js   
+      verifySubselectors.js
+      wrapMapToProps.js    
+
+    components/
+      Provider.js       
+      connectAdvanced.js
+
+    utils/
+      PropTypes.js         
+      Subscription.js      
+      shallowEqual.js      
+      verifyPlainObject.js 
+      warning.js           
+      wrapActionCreators.js
+
 
 * Emacs
 ** TODO org-mode
-*** C-c C-x: org-mode command
+   - C-c C-x: org-mode command
+   - C-c C-x M: insert todo heading
+   - M-RET: spacemacs-org-mode-map-prefix
+   - M-RET RET: insert todo heading
 
 ** TODO projectile
    [[http://projectile.readthedocs.io/en/latest/usage/][Cheatsheet]]
-*** C-c p f: find file in project.
-*** C-c p l: Display a list of all files in a direcotry.
-*** C-c p s g: Run grep on the files in project.
-*** C-c p b: Display a list of all project buffers currently open.
-*** C-c p e: Shows a list of recently visited project files.
-*** C-c p !: Runs shell-command in the root directory of the project.
-*** C-c p p: Display a list of known projects you can switch to.
-*** C-c p C-h: Projectile help
+   - C-c p f: find file in project.
+   - C-c p l: Display a list of all files in a direcotry.
+   - C-c p s g: Run grep on the files in project.
+   - C-c p b: Display a list of all project buffers currently open.
+   - C-c p e: Shows a list of recently visited project files.
+   - C-c p !: Runs shell-command in the root directory of the project.
+   - C-c p p: Display a list of known projects you can switch to.
+   - C-c p C-h: Projectile help
+
+** Frames
+   - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Frames.html][Document]]
+   - 
 
 
+* JavaScript
+** ES6+
+
+** TODO yield generator promise async await 用法、原理
+
+* Category Theory
+** TODO 写一篇关于各种学过的范畴论的概念的简洁和索引。力求简洁易懂
+   - Category definition & properties
