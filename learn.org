@@ -44,7 +44,6 @@
       warning.js           
       wrapActionCreators.js
 
-
 * Emacs
 ** TODO org-mode
    - C-c C-x: org-mode command
@@ -67,7 +66,6 @@
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Frames.html][Document]]
    - 
 
-
 * JavaScript
 ** ES6+
 
@@ -76,3 +74,19 @@
 * Category Theory
 ** TODO 写一篇关于各种学过的范畴论的概念的简洁和索引。力求简洁易懂
    - Category definition & properties
+     - Natural transformatin: Morphism between Functors
+* Node
+** [[http://www.ruanyifeng.com/blog/2015/05/require.html][require]]: 
+   - require 查找顺序：缓存, 取出，返回 -> 内置模块，返回 -> 生成模块实例，存入缓存 -> 加载模块 -> 输出模块的 exports
+   - require.resolve() 输出文件绝对路径
+** TODO [[https://nodejs.org/dist/latest-v8.x/docs/api/stream.html][stream]]
+* Webpack
+** [[https://webpack.js.org/guides/code-splitting/][Code Splitting]]
+   - *Entry Points*: Manually split code using entry configuration.
+   - *Prevent Duplication*: Use the CommonsChunkPlugin to dedupe and split chunks.
+   - *Dynamic Imports*: Split code via inline function calls within modules.
+** [[https://github.com/wenbing/webpack-bbq][webpack-bbq]]
+** Loader
+*** TODO style-loader
+*** TODO css-loader
+*** TODO [[https://webpack.js.org/api/loaders/][Loader Api]]
