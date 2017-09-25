@@ -9,3 +9,7 @@
 *** TODO [[https://nodejs.org/dist/latest-v8.x/docs/api/stream.html][stream]] learning
 *** TODO learn how to read nodejs source code
 *** TODO learn curl
+** TODO code review 报表产品文档和技术文档
+** TODO 函数式编程系列分享
+*** 函数式编程入门 keynote。十一
+** TODO Ramda 在 redux/react 中的应用

@@ -75,6 +75,7 @@
 ** TODO 写一篇关于各种学过的范畴论的概念的简洁和索引。力求简洁易懂
    - Category definition & properties
      - Natural transformatin: Morphism between Functors
+** TODO 翻译[[https://en.wikibooks.org/wiki/Haskell/Continuation_passing_style][Haskell/Continuation_passing_style]]
 * Node
 ** [[http://www.ruanyifeng.com/blog/2015/05/require.html][require]]: 
    - require 查找顺序：缓存, 取出，返回 -> 内置模块，返回 -> 生成模块实例，存入缓存 -> 加载模块 -> 输出模块的 exports
