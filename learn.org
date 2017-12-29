@@ -50,7 +50,6 @@
    - C-c C-x M: insert todo heading
    - M-RET: spacemacs-org-mode-map-prefix
    - M-RET RET: insert todo heading
-
 ** TODO projectile
    [[http://projectile.readthedocs.io/en/latest/usage/][Cheatsheet]]
    - C-c p f: find file in project.
@@ -61,11 +60,18 @@
    - C-c p !: Runs shell-command in the root directory of the project.
    - C-c p p: Display a list of known projects you can switch to.
    - C-c p C-h: Projectile help
-
+** TODO Haskell
+   - C-c C-b: runs the command haskell-interactive-switch. 
 ** Frames
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Frames.html][Document]]
-   - 
-
+** TODO Spacemacs-ABC
+   - M-m h SPC: helm-spacemacs-help
+   - M-m h .: helm-spacemacs-help-dotspacemacs
+   - M-m h l: helm-spacemacs-help-layers
+   - M-m h f: helm-spacemacs-help-faq
+   - M-m h p: helm-spacemacs-help-packages
+   - M-m h r: helm-spacemacs-help-docs
+   - M-m h t: helm-spacemacs-help-toggles
 * JavaScript
 ** ES6+
 
@@ -91,3 +97,16 @@
 *** TODO style-loader
 *** TODO css-loader
 *** TODO [[https://webpack.js.org/api/loaders/][Loader Api]]
+* Ramda
+** TODO Ramda APIs 按照类别串讲一遍，录屏
+   - 函数组合：
+     - 一等函数、高阶函数；一种不太优雅的函数传递
+     - 纯函数 
+     - 函数柯里化
+     - 函数组合
+   - 数据处理：对函数组合和柯里化的应用，参考《JS函数式编程指南》第五章联系题
+   - Ramda 在 React/Redux 中的应用
+     - mapStateToProps
+     - reducerCreator
+** TODO 翻译 ramda 这篇文章：[[http://fr.umio.us/the-philosophy-of-ramda/#header][The Philosophy of Ramda]]
+* Haskell

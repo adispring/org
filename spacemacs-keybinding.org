@@ -1,0 +1,2 @@
+* magit
+  - M- n/p jump between section
