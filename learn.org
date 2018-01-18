@@ -48,6 +48,9 @@
 ** TODO org-mode
    - C-c C-x: org-mode command
    - C-c C-x M: insert todo heading
+   - C-c C-t: Rotate the TODO state of the current item among
+              (unmarked) -> TODO -> DONE -> (unmarked)
+              The same rotation can also be done “remotely” from the agenda buffers with the t command key (see Agenda commands).
    - M-RET: spacemacs-org-mode-map-prefix
    - M-RET RET: insert todo heading
 ** TODO projectile
@@ -72,6 +75,9 @@
    - M-m h p: helm-spacemacs-help-packages
    - M-m h r: helm-spacemacs-help-docs
    - M-m h t: helm-spacemacs-help-toggles
+   - M-m M-g: runs the command find-file-at-point (found in spacemacs-default-map-root-map), which is an interactive autoloaded compiled
+Lisp function in ‘ffap.el’. It is bound to M-m M-g.
+
 * JavaScript
 ** ES6+
 
@@ -110,3 +116,5 @@
      - reducerCreator
 ** TODO 翻译 ramda 这篇文章：[[http://fr.umio.us/the-philosophy-of-ramda/#header][The Philosophy of Ramda]]
 * Haskell
+* Codepen
+  - [[https://blog.codepen.io/documentation/editor/key-bindings/][key-bindings]] 
