@@ -75,3 +75,5 @@
 *** TODO style-loader
 *** TODO css-loader
 *** TODO [[https://webpack.js.org/api/loaders/][Loader Api]]
+* Translate
+** TODO 学习使用 org-mode 进行书籍编写的基本知识

@@ -44,6 +44,13 @@
       warning.js           
       wrapActionCreators.js
 
+** TODO react
+*** [[https://juejin.im/post/5983dfbcf265da3e2f7f32de][React源码解析(一):组件的实现与挂载]]
+*** [[https://juejin.im/post/59ca03b9518825177c60d10b][React源码解析(二):组件的生命周期]]
+*** [[https://juejin.im/post/59cc4c4bf265da0648446ce0][React源码解析(三):详解事务与队列]]
+*** [[https://juejin.im/post/5a0cf54ff265da43333df2c4][React源码解析(四):事件系统]]
+*** TODO React Virtual DOM
+*** TODO React diff
 * Emacs
 ** TODO org-mode
    - C-c C-x: org-mode command
@@ -77,12 +84,22 @@
    - M-m h t: helm-spacemacs-help-toggles
    - M-m M-g: runs the command find-file-at-point (found in spacemacs-default-map-root-map), which is an interactive autoloaded compiled
 Lisp function in ‘ffap.el’. It is bound to M-m M-g.
+   - C-M \: auto indent
+
+** TODO Emacs-Cursor-Move
+   - M-r: move-to-window-line-top-bottom
+   - C-l: recenter-top-bottom
+   - C-x C-SPC: pop-global-mark, Pop off global mark ring and jump to the top location.
 
 * JavaScript
 ** ES6+
+*** TODO export { default as xxx } from '...' ramda 的 import 机制有没有问题，在代码压缩的时候。研究一下
+     export 和 import 的原理
 
 ** TODO yield generator promise async await 用法、原理
 
+** prototype
+** TODO Event Loop 原理学习
 * Category Theory
 ** TODO 写一篇关于各种学过的范畴论的概念的简洁和索引。力求简洁易懂
    - Category definition & properties
