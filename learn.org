@@ -82,9 +82,14 @@
    - M-m h p: helm-spacemacs-help-packages
    - M-m h r: helm-spacemacs-help-docs
    - M-m h t: helm-spacemacs-help-toggles
-   - M-m M-g: runs the command find-file-at-point (found in spacemacs-default-map-root-map), which is an interactive autoloaded compiled
-Lisp function in ‘ffap.el’. It is bound to M-m M-g.
+   - M-m M-g: runs the command find-file-at-point (found in spacemacs-default-map-root-map), 
+              which is an interactive autoloaded compiled Lisp function in
+              ‘ffap.el’. It is bound to M-m M-g.
    - C-M \: auto indent
+   - M-m w: +windows
+     - p: +popup
+       - m: popwin:message
+       - p: popwin:close-popup-window
 
 ** TODO Emacs-Cursor-Move
    - M-r: move-to-window-line-top-bottom
